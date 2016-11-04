@@ -108,7 +108,7 @@ a.logo-text{
   position: relative;
   width: 630px;
   top: 50%;
-  left: 50%;
+  left: 50% !important;
   transform: translate(-50%, -50%);
 }
 .hero-message{
@@ -475,4 +475,9 @@ td {
     left: 30%;
   }
 
+}
+<!--center shit -->
+.centerStuff{
+  display: block;
+ margin: 0 auto;
 }
